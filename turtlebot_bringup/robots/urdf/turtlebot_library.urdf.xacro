@@ -7,8 +7,8 @@
   <xacro:include filename="$(find turtlebot_bringup)/robots/urdf/common_properties.urdf.xacro"/>
   <xacro:include filename="$(find turtlebot_bringup)/robots/urdf/turtlebot_properties.urdf.xacro"/>
   <!-- Bases -->
-  <xacro:include filename="$(find create_description)/urdf/create.urdf.xacro"/>
-  <xacro:include filename="$(find kobuki_description)/urdf/kobuki.urdf.xacro" />
+  <xacro:include filename="$(find turtlebot_bringup)/robots/urdf/create/urdf/create.urdf.xacro"/>
+  <xacro:include filename="$(find turtlebot_bringup)/robots/urdf/kobuki/urdf/kobuki.urdf.xacro" />
   <!-- Stacks -->
   <xacro:include filename="$(find turtlebot_bringup)/robots/urdf/stacks/circles.urdf.xacro"/>
   <xacro:include filename="$(find turtlebot_bringup)/robots/urdf/stacks/hexagons.urdf.xacro"/>
