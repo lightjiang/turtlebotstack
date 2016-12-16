@@ -1,0 +1,15 @@
+<package>
+  <name>turtlebotstack</name>
+  <version>0.1.0</version>
+  <description>test by light</description>
+  <maintainer email="1870499383@qq.com">Light Jiang</maintainer>
+
+  <license>BSD</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
