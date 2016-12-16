@@ -46,7 +46,7 @@
 
   <!-- Interactions --> 
   <arg name="interactions"      default="true"  doc="start an interactions manager"/>
-  <arg name="interactions_list" default="$(env TURTLEBOT_INTERACTIONS_LIST)" doc="a list of filenames that provide interactions specifications."/>
+  <arg name="interactions_list" default="[turtlebot_bringup/admin.interactions, turtlebot_bringup/documentation.interactions, turtlebot_bringup/pairing.interactions, turtlebot_bringup/visualisation.interactions]" doc="a list of filenames that provide interactions specifications."/>
 
   <!-- Zeroconf -->
   <arg name="zeroconf"                          default="true"              doc="publish the master information on zeroconf"/>

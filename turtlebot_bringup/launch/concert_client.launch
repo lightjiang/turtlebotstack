@@ -44,7 +44,7 @@
   <!-- Interactions --> 
   <!-- disable interactions for now. See issue https://github.com/robotics-in-concert/rocon_tools/issues/57--> 
   <arg name="interactions"      default="false" doc="start an interactions manager"/>
-  <arg name="interactions_list" default="$(env TURTLEBOT_INTERACTIONS_LIST)" doc="a list of filenames that provide interactions specifications."/>
+  <arg name="interactions_list" default="interactions specifications" doc="a list of filenames that provide interactions specifications."/>
 
   <!-- Connectivity -->
   <arg name="robot_unique_name"                 default="true"   doc="postfix a uuid to robot_name to create unique namespaces for rapps (else manually guarantee unique names for multimaster'ing)"/>
